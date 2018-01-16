@@ -21,7 +21,7 @@
     <platform name="android">
         <preference name="XWALK_VERSION" default="23+"/>
         <preference name="XWALK_LITEVERSION" default="xwalk_core_library_canary:17+"/>
-        <preference name="XWALK_COMMANDLINE" default="--disable-pull-to-refresh-effect"/>
+        <preference name="XWALK_COMMANDLINE" default="--disable-pull-to-refresh-effect --ignore-gpu-blacklist"/>
         <preference name="XWALK_MODE" default="embedded" />
         <preference name="XWALK_MULTIPLEAPK" default="true" />
         <config-file target="res/xml/config.xml" parent="/*">
